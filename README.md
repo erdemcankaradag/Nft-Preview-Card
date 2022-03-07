@@ -2,7 +2,7 @@
 
 ---
 
-[Live Demo]()
+[Live Demo](https://erdemcankaradag.github.io/Nft-Preview-Card/)
 
 ---
 
