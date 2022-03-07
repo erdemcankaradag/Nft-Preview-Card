@@ -1,0 +1,93 @@
+html , body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit , sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.container .nft-image img {
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container article {
+    width: 300px;
+}
+.container article h1 {
+    color: white;
+    margin: 0px;
+    font-weight: 600;
+}
+.container article p {
+    margin-top:15px;
+    color: #617695;
+    font-weight: 300;
+}
+
+.container .nft-info {
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.container .nft-info .nft-price {
+    display: flex;
+    align-items: center;
+    color: #32d7d1;
+}
+.container .nft-info .nft-price img{
+    margin-right: 10px;
+}
+.container .nft-info .nft-time {
+    display: flex;
+    align-items: center;
+}
+.container .nft-info .nft-time img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.container .nft-info .nft-time p{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    color: #748bab;
+}
+.container .creator {
+    width:300px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.container .creator img {
+    width: 32px;
+    
+    margin-right: 10px;
+}
+.container .creator p{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.container .creator span {
+    color: hsl(215, 32%, 27%);
+}
